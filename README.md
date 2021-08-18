@@ -1,1 +1,0 @@
-# json-s3-lambda-dynamodb
