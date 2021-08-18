@@ -12,5 +12,5 @@ def lambda_handler(event, context):
     json_file=json_object['Body'].read()
     jsondic= json.loads(json_file)
     
-    table = dynamodb.Table('employees')
+    table = dynamodb.Table('Y O U R  T A B L E  N A M E')
     table.put_item(Item=jsondic)
