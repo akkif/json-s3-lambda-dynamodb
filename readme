@@ -1,6 +1,6 @@
 This repository cosists the code which::
   whenever a json document is uploaded into a designated s3 bucket,
-  it triggers a lambda func. and it graps the json part of the file and populates 
+  it triggers a lambda func. and it grabs the json part of the file and populates 
   the dynamodb table according to the key and value of the json document.
 
 How To Use:::
